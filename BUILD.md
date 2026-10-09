@@ -1,26 +1,21 @@
-# Fontes e recursos
+# Building Generic Knights
 
-O diretório `GenericKnights` preserva os geradores, o conversor de sprites e
-as entradas de arte das revisões v5/v6. `art-v6/Mod` é o pacote de dados final.
-Não contém executável próprio: o roteamento das classes é feito pelo JobExpansion.
+[English](BUILD.md) | [Português](BUILD.pt-BR.md)
 
-`build_tables.py` espera tabelas originais extraídas da sua instalação em
-`GenericKnights/analysis/base-tables.sqlite`. Elas não são distribuídas.
-Use FF16Tools para extrair/converter seus dados legalmente; configure seu
-caminho em `FF16TOOLS_CLI` para `rebuild_mod.py`.
+The `GenericKnights` directory contains generators, the sprite converter, original credited SPR inputs,
+selected Scale2x indices/portraits and final data under `art-v6/Mod`.
+There is no standalone gameplay DLL: loader-owned JobExpansion supplies runtime routing.
 
-As fontes SPR, os BMPs próprios, os índices Scale2x e os retratos selecionados
-estão incluídos. `build_filtered_art.py` preserva os SPR e transforma os índices
-em páginas e atlas. As comparações históricas esperam recursos de referência
-da sua própria instalação e FF16Tools em `FF16 Tools/win-x64`, junto da pasta
-`GenericKnights`. Os testes de textura exigem o executor `dds-preview` (.NET 9).
+Use Python 3 with Pillow and .NET SDK 9 for tooling.
+`build_tables.py` needs original tables extracted from your own game in `analysis/base-tables.sqlite`; these are not distributed.
+Use Nenkai's FF16Tools and supply `FF16TOOLS_CLI` to `rebuild_mod.py`.
 
-O runner `toolkit-filter-runner` é um adaptador para o Sprite Modding Toolkit.
-Ele espera `ImageProcessor.cs` e `UpscaleMethod.cs` do Toolkit, obtidos pelo
-usuário, no local indicado pelo projeto. O código de terceiros descompilado
-do Toolkit **não é redistribuído**. Os resultados selecionados necessários ao
-pacote final já estão em `art-v6/filters/Scale2x` e `art-v6/portraits/Scale2x`.
+`build_filtered_art.py` preserves fallback SPRs and converts selected indices into pages/atlases.
+Historical comparisons also require your own legal game resources and FF16Tools.
+`toolkit-filter-runner` uses Kanaruu's Sprite Modding Toolkit's `ImageProcessor.cs`/`UpscaleMethod.cs` supplied locally.
+Its decompiled code is not redistributed. The selected final outputs are already included.
+DDS previews require `dds-preview` and its external dependencies.
 
-Instale Python 3 com Pillow e SDK .NET 9 para as ferramentas gerenciadas.
-Os scripts históricos podem solicitar recursos externos específicos; não
-confunda uma pasta de referência extraída do jogo com código-fonte do mod.
+Original artwork authors are listed in README and SPRITE_CREDITS.json.
+This credit is not a blanket license over third-party artwork.
+The rc.1 release changes metadata/documentation only; gameplay resource hashes are checked against art-v6.

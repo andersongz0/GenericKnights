@@ -2,8 +2,8 @@
   "ModId": "ffttic.jobs.genericknights",
   "ModName": "GenericKnights",
   "ModAuthor": "ZeroDS",
-  "ModVersion": "0.1.24-art-test",
-  "ModDescription": "Generic Holy/Rune Knights using ZeroDS-supplied sprite artwork and portraits; native palettes and pixel indices preserved.",
+  "ModVersion": "0.1.26-rc.1",
+  "ModDescription": "Generic Holy/Rune Knights using credited FFHacktics artwork; native palettes and pixel indices preserved.",
   "ModIcon": "Preview.png",
   "Tags": [
     "Jobs",

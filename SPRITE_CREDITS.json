@@ -1,0 +1,45 @@
+{
+  "source": "https://ffhacktics.com/sprites.php",
+  "checked": "2026-10-09",
+  "evidence": "User supplied screenshots of FFHacktics catalog; compared with source sprite sheets and portraits. Original source download hashes were not re-fetched because the site required browser verification.",
+  "modAuthor": "ZeroDS",
+  "attributionDoesNotRelicenseArtwork": true,
+  "entries": [
+    {
+      "key": "holy_m",
+      "file": "Male Paladin.spr",
+      "catalogEntry": "Male Paladin",
+      "sprite": "Lijj",
+      "portrait": "Lijj",
+      "palettes": "Lijj",
+      "sha256": "9a204d01b13836c181665b9b65e84dae235d115fa7e9baf469e3899f65ced5dd"
+    },
+    {
+      "key": "holy_f",
+      "file": "Female Paladin.spr",
+      "catalogEntry": "Female Paladin",
+      "sprite": "Lijj",
+      "portrait": "Twinees",
+      "palettes": "Lijj",
+      "sha256": "dbff6bf4cba3918d27546601648b93d842b68ad6486849a00517647d488dc164"
+    },
+    {
+      "key": "rune_m",
+      "file": "Rune Knight Male.spr",
+      "catalogEntry": "Male Rogue",
+      "sprite": "R999",
+      "portrait": "Lijj",
+      "palettes": "Lijj",
+      "sha256": "c8f94a85d009f2481a58136f32e7790756108f9fef78801e68ef5458f01689d4"
+    },
+    {
+      "key": "rune_f",
+      "file": "Rune Knight Female.spr",
+      "catalogEntry": "Female Rogue",
+      "sprite": "R999",
+      "portrait": "Lijj",
+      "palettes": "Lijj",
+      "sha256": "a2c9b00cc82fa05ef19c5f3165314bbda14945dcfae6256eee5b6cfdddcf1693"
+    }
+  ]
+}

@@ -1,29 +1,45 @@
 # Generic Knights
 
-Autor: **ZeroDS** · [Código-fonte e releases](https://github.com/andersongz0/GenericKnights)
+[English](README.md) | [Português](README.pt-BR.md)
 
-Versão publicada: **0.1.25-art-test**, conservando o conteúdo da última versão
-testada. Adiciona classes genéricas masculinas e femininas:
+Mod author: **ZeroDS** · [Source and releases](https://github.com/andersongz0/GenericKnights)
 
-- Holy Knight: Holy Sword; Knight 8 + White Mage 8.
-- Rune Knight: Limit; Knight 8 + Time Mage 8.
+**0.1.26-rc.1** updates documentation and credits. Gameplay data, Scale2x textures,
+fallback sprites and all palettes are unchanged from the approved **0.1.25-art-test**.
 
-Inclui sprites enhanced Scale2x, retratos e recursos de seleção de classe.
-Os SPR de fallback e suas paletas são preservados.
+- Holy Knight (male/female): Holy Sword; Knight level 8 + White Mage level 8.
+- Rune Knight (male/female): Limit; Knight level 8 + Time Mage level 8.
 
-## Dependências e instalação
+## Installation and dependencies
 
-Instale primeiro [FFTModLoader 0.11.6](https://github.com/andersongz0/FFTModLoader/releases).
-Generic Knights declara `fftivc.utility.modloader` e usa o **JobExpansion
-0.2.7 integrado** para as classes e recursos extras. Na configuração atual,
-JobExpansion também requer GenericJobs original, SigScan e SharedLib.Hooks;
-essas dependências já acompanham o pacote do FFTModLoader.
+Install [FFTModLoader 0.11.7-rc.1](https://github.com/andersongz0/FFTModLoader/releases) first.
+Extract **GenericKnights-0.1.26-rc.1.zip** outside the game directory and run
+`install.ps1 -GameDirectory "your game folder"` with the game/loader closed.
+Launch FFTModLoader.exe in Enhanced mode.
 
-**Não depende de Reworked Chemist.** Os IDs e arquivos das dependências de
-terceiros devem permanecer intactos.
+Requires Utility Mod Loader and loader-owned JobExpansion. JobExpansion's original GenericJobs,
+SigScan and SharedLib.Hooks dependencies are included with FFTModLoader.
+**Reworked Chemist is not required.** No saves or unrelated mods are changed.
 
-Extraia `GenericKnights-0.1.25.zip` separadamente. Com jogo e loader fechados,
-execute `install.ps1 -GameDirectory "caminho da pasta do jogo"`. Ele instala
-`Mods/Generic Knights` com backup recuperável e não altera saves.
+## Sprite credits
 
-Veja [BUILD.md](BUILD.md) e [THIRD_PARTY_NOTICES.md](THIRD_PARTY_NOTICES.md).
+The [FFHacktics catalog](https://ffhacktics.com/sprites.php) identifies these original contributors.
+Rune Knight uses the catalog's **Rogue** artwork, renamed for its role in this mod.
+
+| Mod artwork | Catalog entry | Sprite | Portrait | Palettes |
+| --- | --- | --- | --- | --- |
+| Holy Knight male | Male Paladin | Lijj | Lijj | Lijj |
+| Holy Knight female | Female Paladin | Lijj | Twinees | Lijj |
+| Rune Knight male | Male Rogue | R999 | Lijj | Lijj |
+| Rune Knight female | Female Rogue | R999 | Lijj | Lijj |
+
+ZeroDS created the mod integration and conversion; original sprite/portrait authorship is not reassigned.
+[SPRITE_CREDITS.json](SPRITE_CREDITS.json) records the original file hashes and attribution evidence.
+Artwork is not relicensed as original ZeroDS code.
+
+**Nenkai**: Utility Mod Loader, FF16Tools and FaithFramework.
+**Kanaruu**: FFT Ivalice Chronicles - Sprite Modding Toolkit, used for filter comparisons and selected Scale2x outputs.
+**cipherxof**: original FFTGenericJobs compatibility basis; its preserved MIT notice credits trigger.
+
+See [credits/tools](CREDITS.md), [building](BUILD.md) and [third-party notices](THIRD_PARTY_NOTICES.md).
+New mods are only published after the user's explicit finalized decision.
