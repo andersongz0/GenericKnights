@@ -14,7 +14,7 @@ Generic Knights adds **Holy Knight** and **Rune Knight** as jobs for generic mal
 ## Requirements
 
 - Windows x64 and a legal Steam installation of **FINAL FANTASY TACTICS - The Ivalice Chronicles**, Enhanced mode.
-- The complete [FFTModLoader 0.11.7-rc.2 package](https://github.com/andersongz0/FFTModLoader/releases/tag/v0.11.7-rc.2).
+- The complete [FFTModLoader 0.11.7-rc.5 package](https://github.com/andersongz0/FFTModLoader/releases/tag/v0.11.7-rc.5).
 
 JobExpansion, Utility Mod Loader and their compatibility dependencies are included with FFTModLoader.
 
@@ -22,7 +22,7 @@ JobExpansion, Utility Mod Loader and their compatibility dependencies are includ
 
 1. Install FFTModLoader following [its guide](https://github.com/andersongz0/FFTModLoader#fftmodloader-installation-guide).
 2. Close the game. Close the loader too if it is already installed and running.
-3. Download **GenericKnights-0.1.26-rc.2.zip** from [release Assets](https://github.com/andersongz0/GenericKnights/releases/tag/v0.1.26-rc.2), not **Source code**.
+3. Download **GenericKnights-0.1.26-rc.3.zip** from [release Assets](https://github.com/andersongz0/GenericKnights/releases/tag/v0.1.26-rc.3), not **Source code**.
 4. Extract the ZIP to a separate folder outside the game installation.
 5. Double-click **Install.cmd** and choose your language.
 6. Check the detected folder and type **YES** to confirm. If several installations are found, choose one; if none is found, enter the path to **FFT_enhanced.exe** or its folder.

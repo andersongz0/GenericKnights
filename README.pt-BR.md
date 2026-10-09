@@ -14,7 +14,7 @@ Generic Knights adiciona **Holy Knight** e **Rune Knight** como classes para uni
 ## Requisitos
 
 - Windows x64 e instalação legítima de **FINAL FANTASY TACTICS - The Ivalice Chronicles** pela Steam, modo Enhanced.
-- [FFTModLoader 0.11.7-rc.2](https://github.com/andersongz0/FFTModLoader/releases/tag/v0.11.7-rc.2), instalado com o pacote completo.
+- [FFTModLoader 0.11.7-rc.5](https://github.com/andersongz0/FFTModLoader/releases/tag/v0.11.7-rc.5), instalado com o pacote completo.
 
 JobExpansion, Utility Mod Loader e suas dependências de compatibilidade acompanham o FFTModLoader.
 
@@ -22,7 +22,7 @@ JobExpansion, Utility Mod Loader e suas dependências de compatibilidade acompan
 
 1. Instale FFTModLoader seguindo [o guia dele](https://github.com/andersongz0/FFTModLoader/blob/main/README.pt-BR.md#guia-de-instalação-do-fftmodloader).
 2. Feche o jogo. Feche também o loader, caso já esteja instalado e aberto.
-3. Baixe **GenericKnights-0.1.26-rc.2.zip** em [Assets da release](https://github.com/andersongz0/GenericKnights/releases/tag/v0.1.26-rc.2), não **Source code**.
+3. Baixe **GenericKnights-0.1.26-rc.3.zip** em [Assets da release](https://github.com/andersongz0/GenericKnights/releases/tag/v0.1.26-rc.3), não **Source code**.
 4. Extraia o ZIP em uma pasta separada, fora da instalação do jogo.
 5. Dê dois cliques em **Install.cmd** e escolha o idioma.
 6. Confira a pasta encontrada e digite **SIM** para confirmar. Se houver várias instalações, escolha uma; se nenhuma for encontrada, informe o caminho de **FFT_enhanced.exe** ou da pasta que o contém.

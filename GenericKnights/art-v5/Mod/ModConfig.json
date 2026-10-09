@@ -1,8 +1,8 @@
 {
   "ModId": "ffttic.jobs.genericknights",
-  "ModName": "GenericKnights",
+  "ModName": "Generic Knights",
   "ModAuthor": "ZeroDS",
-  "ModVersion": "0.1.26-rc.2",
+  "ModVersion": "0.1.26-rc.3",
   "ModDescription": "Generic Holy/Rune Knights using credited FFHacktics artwork; native palettes and pixel indices preserved.",
   "ModIcon": "Preview.png",
   "Tags": [
@@ -14,7 +14,8 @@
   "IsLibrary": false,
   "IsUniversalMod": false,
   "ModDependencies": [
-    "fftivc.utility.modloader"
+    "fftivc.utility.modloader",
+    "fftmodloader.jobexpansion"
   ],
   "OptionalDependencies": [],
   "SupportedAppId": [
