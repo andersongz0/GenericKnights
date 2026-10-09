@@ -1,0 +1,7 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup><OutputType>Exe</OutputType><TargetFramework>net9.0-windows</TargetFramework><UseWindowsForms>true</UseWindowsForms><ImplicitUsings>enable</ImplicitUsings></PropertyGroup>
+  <ItemGroup>
+    <Reference Include="BCnEncoder"><HintPath>..\..\FFTModLoader_Prototype_v0.10.30\build-packer-verify-01038\BCnEncoder.dll</HintPath></Reference>
+    <Reference Include="CommunityToolkit.HighPerformance"><HintPath>..\..\FFTModLoader_Prototype_v0.10.30\build-packer-verify-01038\CommunityToolkit.HighPerformance.dll</HintPath></Reference>
+  </ItemGroup>
+</Project>

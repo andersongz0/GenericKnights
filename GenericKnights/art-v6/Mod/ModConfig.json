@@ -1,0 +1,24 @@
+{
+  "ModId": "ffttic.jobs.genericknights",
+  "ModName": "GenericKnights",
+  "ModAuthor": "ZeroDS",
+  "ProjectUrl": "https://github.com/andersongz0/GenericKnights",
+  "ModVersion": "0.1.25-art-test",
+  "ModDescription": "Holy Knight and Rune Knight generic jobs. Scale2x enhanced sprites and menu portraits; original fallback sprites and palettes preserved.",
+  "ModIcon": "Preview.png",
+  "Tags": [
+    "Jobs",
+    "Gameplay"
+  ],
+  "CanUnload": false,
+  "HasExports": false,
+  "IsLibrary": false,
+  "IsUniversalMod": false,
+  "ModDependencies": [
+    "fftivc.utility.modloader"
+  ],
+  "OptionalDependencies": [],
+  "SupportedAppId": [
+    "fft_enhanced.exe"
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "ModId": "ffttic.jobs.genericknights",
+  "ModName": "GenericKnights",
+  "ModAuthor": "ZeroDS",
+  "ModVersion": "0.1.24-art-test",
+  "ModDescription": "Generic Holy/Rune Knights using ZeroDS-supplied sprite artwork and portraits; native palettes and pixel indices preserved.",
+  "ModIcon": "Preview.png",
+  "Tags": [
+    "Jobs",
+    "Gameplay"
+  ],
+  "CanUnload": false,
+  "HasExports": false,
+  "IsLibrary": false,
+  "IsUniversalMod": false,
+  "ModDependencies": [
+    "fftivc.utility.modloader"
+  ],
+  "OptionalDependencies": [],
+  "SupportedAppId": [
+    "fft_enhanced.exe"
+  ],
+  "ProjectUrl": "https://github.com/andersongz0/GenericKnights"
+}

@@ -1,0 +1,42 @@
+[
+  {
+    "name": "HolyKnight Male",
+    "key": "holy_m",
+    "source": "${FFT_WORKSPACE}\\Sprite\\Sprite de Holy Knight\\Male Paladin.spr",
+    "sourceBytes": 65536,
+    "sourceSha256": "9a204d01b13836c181665b9b65e84dae235d115fa7e9baf469e3899f65ced5dd",
+    "bmp": "${FFT_WORKSPACE}\\GenericKnights\\art-v5\\holy\\HolyKnight Male.BMP",
+    "pixelIndicesPreserved": true,
+    "paletteSlotsPreserved": 16
+  },
+  {
+    "name": "HolyKnight Female",
+    "key": "holy_f",
+    "source": "${FFT_WORKSPACE}\\Sprite\\Sprite de Holy Knight\\Female Paladin.spr",
+    "sourceBytes": 65536,
+    "sourceSha256": "dbff6bf4cba3918d27546601648b93d842b68ad6486849a00517647d488dc164",
+    "bmp": "${FFT_WORKSPACE}\\GenericKnights\\art-v5\\holy\\HolyKnight Female.BMP",
+    "pixelIndicesPreserved": true,
+    "paletteSlotsPreserved": 16
+  },
+  {
+    "name": "Rune Knight Male",
+    "key": "rune_m",
+    "source": "${FFT_WORKSPACE}\\Sprite\\Sprite de Rune Knight\\Rune Knight Male.spr",
+    "sourceBytes": 65536,
+    "sourceSha256": "c8f94a85d009f2481a58136f32e7790756108f9fef78801e68ef5458f01689d4",
+    "bmp": "${FFT_WORKSPACE}\\GenericKnights\\art-v5\\rune\\Rune Knight Male.BMP",
+    "pixelIndicesPreserved": true,
+    "paletteSlotsPreserved": 16
+  },
+  {
+    "name": "Rune Knight Female",
+    "key": "rune_f",
+    "source": "${FFT_WORKSPACE}\\Sprite\\Sprite de Rune Knight\\Rune Knight Female.spr",
+    "sourceBytes": 65536,
+    "sourceSha256": "a2c9b00cc82fa05ef19c5f3165314bbda14945dcfae6256eee5b6cfdddcf1693",
+    "bmp": "${FFT_WORKSPACE}\\GenericKnights\\art-v5\\rune\\Rune Knight Female.BMP",
+    "pixelIndicesPreserved": true,
+    "paletteSlotsPreserved": 16
+  }
+]

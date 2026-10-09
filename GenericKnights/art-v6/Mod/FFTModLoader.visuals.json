@@ -1,0 +1,9 @@
+{
+  "SchemaVersion": 1,
+  "Entries": [
+    { "JobId": 162, "Gender": "male", "ShapeId": 170, "TemplateShape": 100, "Spr": "Visuals/holy_m.spr", "TopPage": "Visuals/holy_m_top.bin", "BottomPage": "Visuals/holy_m_bottom.bin" },
+    { "JobId": 162, "Gender": "female", "ShapeId": 171, "TemplateShape": 101, "Spr": "Visuals/holy_f.spr", "TopPage": "Visuals/holy_f_top.bin", "BottomPage": "Visuals/holy_f_bottom.bin" },
+    { "JobId": 163, "Gender": "male", "ShapeId": 172, "TemplateShape": 100, "Spr": "Visuals/rune_m.spr", "TopPage": "Visuals/rune_m_top.bin", "BottomPage": "Visuals/rune_m_bottom.bin" },
+    { "JobId": 163, "Gender": "female", "ShapeId": 173, "TemplateShape": 101, "Spr": "Visuals/rune_f.spr", "TopPage": "Visuals/rune_f_top.bin", "BottomPage": "Visuals/rune_f_bottom.bin" }
+  ]
+}

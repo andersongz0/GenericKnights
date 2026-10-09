@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<JobTable>
+  <Version>2</Version>
+  <Entries>
+    <Job>
+      <Id>162</Id>
+      <JobCommandId>162</JobCommandId>
+      <EquippableItems>Perfume, Cloak, Armlet, Ring, Armguard, Shoes, Robe, Armor, HairAdornment, Helmet, Shield, KnightSword, Sword, Unarmed</EquippableItems>
+      <HPGrowth>10</HPGrowth><HPMultiplier>140</HPMultiplier>
+      <MPGrowth>11</MPGrowth><MPMultiplier>100</MPMultiplier>
+      <SpeedGrowth>100</SpeedGrowth><SpeedMultiplier>100</SpeedMultiplier>
+      <PAGrowth>50</PAGrowth><PAMultiplier>100</PAMultiplier>
+      <MAGrowth>50</MAGrowth><MAMultiplier>100</MAMultiplier>
+      <Move>3</Move><Jump>3</Jump><CharacterEvasion>25</CharacterEvasion>
+      <InnateStatus>None</InnateStatus><ImmuneStatus>Traitor</ImmuneStatus><StartingStatus>None</StartingStatus>
+      <AbsorbElements>None</AbsorbElements><NullifyElements>None</NullifyElements><HalveElements>None</HalveElements><WeakElements>None</WeakElements>
+      <MonsterPortrait>0</MonsterPortrait><MonsterPalette>0</MonsterPalette><MonsterGraphic>0</MonsterGraphic>
+    </Job>
+    <Job>
+      <Id>163</Id>
+      <JobCommandId>163</JobCommandId>
+      <EquippableItems>Perfume, Cloak, Armlet, Ring, Armguard, Shoes, Clothing, HairAdornment, Hat, Sword, Unarmed</EquippableItems>
+      <HPGrowth>11</HPGrowth><HPMultiplier>125</HPMultiplier>
+      <MPGrowth>10</MPGrowth><MPMultiplier>100</MPMultiplier>
+      <SpeedGrowth>100</SpeedGrowth><SpeedMultiplier>100</SpeedMultiplier>
+      <PAGrowth>50</PAGrowth><PAMultiplier>110</PAMultiplier>
+      <MAGrowth>50</MAGrowth><MAMultiplier>100</MAMultiplier>
+      <Move>3</Move><Jump>3</Jump><CharacterEvasion>20</CharacterEvasion>
+      <InnateStatus>None</InnateStatus><ImmuneStatus>Traitor</ImmuneStatus><StartingStatus>None</StartingStatus>
+      <AbsorbElements>None</AbsorbElements><NullifyElements>None</NullifyElements><HalveElements>None</HalveElements><WeakElements>None</WeakElements>
+      <MonsterPortrait>0</MonsterPortrait><MonsterPalette>0</MonsterPalette><MonsterGraphic>0</MonsterGraphic>
+    </Job>
+  </Entries>
+</JobTable>

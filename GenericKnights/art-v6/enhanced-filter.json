@@ -1,0 +1,50 @@
+{
+  "bodyMethod": "Scale2x",
+  "portraitMethod": "Scale2x",
+  "bodyScale": 2,
+  "portraitScale": 4,
+  "physicalSheetSize": [
+    512,
+    976
+  ],
+  "pageSize": [
+    512,
+    512
+  ],
+  "palettePolicy": "Original palettes; no new body colors",
+  "fallback": "Original user SPR preserved byte-for-byte from art-v5",
+  "assets": [
+    {
+      "key": "holy_m",
+      "changedEnhancedPixels": 15174,
+      "fallbackSprUnchanged": true,
+      "allSixteenPalettesUnchanged": true,
+      "assembledFrames": 363,
+      "sourceCoordinatesAndOffsetsUnchanged": true
+    },
+    {
+      "key": "holy_f",
+      "changedEnhancedPixels": 14524,
+      "fallbackSprUnchanged": true,
+      "allSixteenPalettesUnchanged": true,
+      "assembledFrames": 363,
+      "sourceCoordinatesAndOffsetsUnchanged": true
+    },
+    {
+      "key": "rune_m",
+      "changedEnhancedPixels": 15229,
+      "fallbackSprUnchanged": true,
+      "allSixteenPalettesUnchanged": true,
+      "assembledFrames": 363,
+      "sourceCoordinatesAndOffsetsUnchanged": true
+    },
+    {
+      "key": "rune_f",
+      "changedEnhancedPixels": 13915,
+      "fallbackSprUnchanged": true,
+      "allSixteenPalettesUnchanged": true,
+      "assembledFrames": 363,
+      "sourceCoordinatesAndOffsetsUnchanged": true
+    }
+  ]
+}
