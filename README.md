@@ -5,21 +5,31 @@
 Mod author: **ZeroDS** · [Source and releases](https://github.com/andersongz0/GenericKnights)
 
 **0.1.26-rc.1** updates documentation and credits. Gameplay data, Scale2x textures,
-fallback sprites and all palettes are unchanged from the approved **0.1.25-art-test**.
+fallback sprites and all palettes are unchanged from the approved **0.1.25**.
 
 - Holy Knight (male/female): Holy Sword; Knight level 8 + White Mage level 8.
 - Rune Knight (male/female): Limit; Knight level 8 + Time Mage level 8.
 
-## Installation and dependencies
+## Requirements
 
-Install [FFTModLoader 0.11.7-rc.1](https://github.com/andersongz0/FFTModLoader/releases) first.
-Extract **GenericKnights-0.1.26-rc.1.zip** outside the game directory and run
-`install.ps1 -GameDirectory "your game folder"` with the game/loader closed.
-Launch FFTModLoader.exe in Enhanced mode.
+- Windows x64 and a legal Steam installation of **FINAL FANTASY TACTICS - The Ivalice Chronicles**, Enhanced mode.
+- [FFTModLoader 0.11.7-rc.1](https://github.com/andersongz0/FFTModLoader/releases/tag/v0.11.7-rc.1), installed as a complete package.
+- Utility Mod Loader and loader-owned **JobExpansion**. Original GenericJobs, SigScan and SharedLib.Hooks are their compatibility dependencies.
 
-Requires Utility Mod Loader and loader-owned JobExpansion. JobExpansion's original GenericJobs,
-SigScan and SharedLib.Hooks dependencies are included with FFTModLoader.
-**Reworked Chemist is not required.** No saves or unrelated mods are changed.
+All required runtime components are supplied by FFTModLoader; no separate dependency downloads are needed.
+
+## Generic Knights Installation Guide
+
+1. Install FFTModLoader following [its installation guide](https://github.com/andersongz0/FFTModLoader#fftmodloader-installation-guide).
+2. Close the game and loader.
+3. Download **GenericKnights-0.1.26-rc.1.zip** from [release Assets](https://github.com/andersongz0/GenericKnights/releases/tag/v0.1.26-rc.1), not **Source code**.
+4. Extract outside the game directory. Open PowerShell in the extracted folder and run `./install.ps1 -GameDirectory "your game folder"`.
+5. Confirm that **Mods/Generic Knights/ModConfig.json** exists in the game installation.
+6. Launch **FFTModLoader.exe** in Enhanced mode. Meet the job-level requirements above to unlock the new jobs.
+
+The installer verifies package hashes and backs up replaced files under **FFTModLoader.Backup**. Saves and unrelated mods are preserved.
+To update, close the game/loader and install the new complete release. Keep only one active copy of Generic Knights.
+If dependency files are missing, reinstall the complete FFTModLoader package.
 
 ## Sprite credits
 
