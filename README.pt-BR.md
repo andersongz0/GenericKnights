@@ -2,34 +2,42 @@
 
 [English](README.md) | [Português](README.pt-BR.md)
 
-Autor do mod: **ZeroDS** · [Código-fonte e releases](https://github.com/andersongz0/GenericKnights)
+Autor: **ZeroDS** · [Código-fonte e releases](https://github.com/andersongz0/GenericKnights)
 
-**0.1.26-rc.1** atualiza documentação e créditos. Dados de gameplay, texturas Scale2x,
-sprites de fallback e paletas permanecem iguais à versão aprovada **0.1.25**.
+Generic Knights adiciona **Holy Knight** e **Rune Knight** como classes para unidades genéricas masculinas e femininas, com sprites de batalha, retratos de menu e comandos próprios.
+
+## Funcionalidades
 
 - Holy Knight masculino/feminino: Holy Sword; Knight 8 + White Mage 8.
 - Rune Knight masculino/feminino: Limit; Knight 8 + Time Mage 8.
 
 ## Requisitos
 
-- Windows x64 e instalação legítima da Steam de **FINAL FANTASY TACTICS - The Ivalice Chronicles**, modo Enhanced.
-- [FFTModLoader 0.11.7-rc.1](https://github.com/andersongz0/FFTModLoader/releases/tag/v0.11.7-rc.1), instalado com o pacote completo.
-- Utility Mod Loader e **JobExpansion** integrado. GenericJobs original, SigScan e SharedLib.Hooks são dependências de compatibilidade desses componentes.
+- Windows x64 e instalação legítima de **FINAL FANTASY TACTICS - The Ivalice Chronicles** pela Steam, modo Enhanced.
+- [FFTModLoader 0.11.7-rc.2](https://github.com/andersongz0/FFTModLoader/releases/tag/v0.11.7-rc.2), instalado com o pacote completo.
 
-Todos os componentes necessários acompanham FFTModLoader; não é necessário baixar dependências separadamente.
+JobExpansion, Utility Mod Loader e suas dependências de compatibilidade acompanham o FFTModLoader.
 
 ## Guia de Instalação do Generic Knights
 
 1. Instale FFTModLoader seguindo [o guia dele](https://github.com/andersongz0/FFTModLoader/blob/main/README.pt-BR.md#guia-de-instalação-do-fftmodloader).
-2. Feche o jogo e o loader.
-3. Baixe **GenericKnights-0.1.26-rc.1.zip** em [Assets da release](https://github.com/andersongz0/GenericKnights/releases/tag/v0.1.26-rc.1), não **Source code**.
-4. Extraia fora da pasta do jogo. Abra o PowerShell na pasta extraída e execute `./install.ps1 -GameDirectory "pasta do jogo"`.
-5. Confira se **Mods/Generic Knights/ModConfig.json** existe na instalação do jogo.
-6. Abra **FFTModLoader.exe** no modo Enhanced. Alcance os níveis de classes informados acima para liberar as novas classes.
+2. Feche o jogo. Feche também o loader, caso já esteja instalado e aberto.
+3. Baixe **GenericKnights-0.1.26-rc.2.zip** em [Assets da release](https://github.com/andersongz0/GenericKnights/releases/tag/v0.1.26-rc.2), não **Source code**.
+4. Extraia o ZIP em uma pasta separada, fora da instalação do jogo.
+5. Dê dois cliques em **Install.cmd** e escolha o idioma.
+6. Confira a pasta encontrada e digite **SIM** para confirmar. Se houver várias instalações, escolha uma; se nenhuma for encontrada, informe o caminho de **FFT_enhanced.exe** ou da pasta que o contém.
+7. Autorize a solicitação de permissão do Windows, se aparecer, e aguarde a mensagem de conclusão.
 
-O instalador confere hashes e guarda arquivos substituídos em **FFTModLoader.Backup**. Saves e outros mods são preservados.
-Para atualizar, feche jogo/loader e instale a nova release completa. Mantenha apenas uma cópia ativa de Generic Knights.
-Se faltarem dependências, reinstale o pacote completo do FFTModLoader.
+Não é necessário digitar comandos. O instalador verifica o pacote e guarda arquivos substituídos em **FFTModLoader.Backup**, dentro da pasta do jogo. Saves e outros mods são preservados.
+O mod é instalado em **Mods/Generic Knights**.
+
+## Como usar
+
+Abra **FFTModLoader.exe** na pasta do jogo. Alcance os níveis de classes informados acima para liberar as novas classes nas unidades genéricas.
+
+## Atualização
+
+Feche o jogo e o loader, se estiver aberto, e execute **Install.cmd** da nova release completa. Se faltarem arquivos de dependências, reinstale o pacote completo do FFTModLoader.
 
 ## Créditos dos sprites
 
@@ -52,4 +60,3 @@ A arte não é relicenciada como código original de ZeroDS.
 **cipherxof**: FFTGenericJobs original, base de compatibilidade; o aviso MIT preservado credita trigger.
 
 Veja [créditos/ferramentas](CREDITS.pt-BR.md), [compilação](BUILD.pt-BR.md) e [avisos de terceiros](THIRD_PARTY_NOTICES.md).
-Novos mods só são publicados após o usuário decidir que estão finalizados.

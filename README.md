@@ -2,10 +2,11 @@
 
 [English](README.md) | [Português](README.pt-BR.md)
 
-Mod author: **ZeroDS** · [Source and releases](https://github.com/andersongz0/GenericKnights)
+Author: **ZeroDS** · [Source and releases](https://github.com/andersongz0/GenericKnights)
 
-**0.1.26-rc.1** updates documentation and credits. Gameplay data, Scale2x textures,
-fallback sprites and all palettes are unchanged from the approved **0.1.25**.
+Generic Knights adds **Holy Knight** and **Rune Knight** as jobs for generic male and female units, with dedicated battle sprites, menu portraits and job commands.
+
+## Features
 
 - Holy Knight (male/female): Holy Sword; Knight level 8 + White Mage level 8.
 - Rune Knight (male/female): Limit; Knight level 8 + Time Mage level 8.
@@ -13,23 +14,30 @@ fallback sprites and all palettes are unchanged from the approved **0.1.25**.
 ## Requirements
 
 - Windows x64 and a legal Steam installation of **FINAL FANTASY TACTICS - The Ivalice Chronicles**, Enhanced mode.
-- [FFTModLoader 0.11.7-rc.1](https://github.com/andersongz0/FFTModLoader/releases/tag/v0.11.7-rc.1), installed as a complete package.
-- Utility Mod Loader and loader-owned **JobExpansion**. Original GenericJobs, SigScan and SharedLib.Hooks are their compatibility dependencies.
+- The complete [FFTModLoader 0.11.7-rc.2 package](https://github.com/andersongz0/FFTModLoader/releases/tag/v0.11.7-rc.2).
 
-All required runtime components are supplied by FFTModLoader; no separate dependency downloads are needed.
+JobExpansion, Utility Mod Loader and their compatibility dependencies are included with FFTModLoader.
 
 ## Generic Knights Installation Guide
 
-1. Install FFTModLoader following [its installation guide](https://github.com/andersongz0/FFTModLoader#fftmodloader-installation-guide).
-2. Close the game and loader.
-3. Download **GenericKnights-0.1.26-rc.1.zip** from [release Assets](https://github.com/andersongz0/GenericKnights/releases/tag/v0.1.26-rc.1), not **Source code**.
-4. Extract outside the game directory. Open PowerShell in the extracted folder and run `./install.ps1 -GameDirectory "your game folder"`.
-5. Confirm that **Mods/Generic Knights/ModConfig.json** exists in the game installation.
-6. Launch **FFTModLoader.exe** in Enhanced mode. Meet the job-level requirements above to unlock the new jobs.
+1. Install FFTModLoader following [its guide](https://github.com/andersongz0/FFTModLoader#fftmodloader-installation-guide).
+2. Close the game. Close the loader too if it is already installed and running.
+3. Download **GenericKnights-0.1.26-rc.2.zip** from [release Assets](https://github.com/andersongz0/GenericKnights/releases/tag/v0.1.26-rc.2), not **Source code**.
+4. Extract the ZIP to a separate folder outside the game installation.
+5. Double-click **Install.cmd** and choose your language.
+6. Check the detected folder and type **YES** to confirm. If several installations are found, choose one; if none is found, enter the path to **FFT_enhanced.exe** or its folder.
+7. Approve the Windows permission prompt, if shown, and wait for completion.
 
-The installer verifies package hashes and backs up replaced files under **FFTModLoader.Backup**. Saves and unrelated mods are preserved.
-To update, close the game/loader and install the new complete release. Keep only one active copy of Generic Knights.
-If dependency files are missing, reinstall the complete FFTModLoader package.
+No terminal commands are needed. The installer verifies the package and backs up replaced files under **FFTModLoader.Backup** in the game folder. Saves and unrelated mods are preserved.
+The mod is installed in **Mods/Generic Knights**.
+
+## Using Generic Knights
+
+Start **FFTModLoader.exe** from the game folder. Meet the job-level requirements above to unlock the new jobs for your generic units.
+
+## Updating
+
+Close the game and any running loader, then run **Install.cmd** from the new complete release. If dependency files are missing, reinstall the complete FFTModLoader package.
 
 ## Sprite credits
 
@@ -52,4 +60,3 @@ Artwork is not relicensed as original ZeroDS code.
 **cipherxof**: original FFTGenericJobs compatibility basis; its preserved MIT notice credits trigger.
 
 See [credits/tools](CREDITS.md), [building](BUILD.md) and [third-party notices](THIRD_PARTY_NOTICES.md).
-New mods are only published after the user's explicit finalized decision.
