@@ -18,4 +18,6 @@ DDS previews require `dds-preview` and its external dependencies.
 
 Original artwork authors are listed in README and SPRITE_CREDITS.json.
 This credit is not a blanket license over third-party artwork.
-The rc.1 release changes metadata/documentation only; gameplay resource hashes are checked against art-v6.
+`FFTModLoader.jobs.json` opts command 163 into JobExpansion's native Sword Limit route.
+The Rune Knight overview has its own help row 163; Cloud's original row 31 is preserved.
+The rc.4 update requires FFTModLoader rc.9. Artwork, unlock requirements and ability data are unchanged.

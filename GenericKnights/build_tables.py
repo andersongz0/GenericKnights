@@ -11,6 +11,14 @@ ROOT = Path(__file__).resolve().parent
 SOURCE_DB = ROOT / "analysis" / "base-tables.sqlite"
 OUTPUT_DB = ROOT / "GenericKnights.sqlite"
 
+# A separate overview keeps Cloud's original Materia Blade requirement intact.
+RUNE_OVERVIEW = {
+    "en": "Rune Knight uses the Limit command.\nLimit abilities can be used with any sword equipped.",
+    "de": "Rune Knight verwendet den Befehl Limit.\nLimit-Fähigkeiten können mit jedem ausgerüsteten Schwert verwendet werden.",
+    "fr": "Rune Knight utilise la commande Limit.\nLes techniques Limit peuvent être utilisées avec n'importe quelle épée équipée.",
+    "ja": "Rune Knightは「リミット」を使用します。\n剣を装備していれば、どの剣でもリミットを使用できます。",
+}
+
 
 def clone_row(connection, table, source_key, target_key, overrides=None):
     overrides = overrides or {}
@@ -82,7 +90,7 @@ def main():
                     "jobcommand+Id": 0xA3,
                     # Likewise this points at j_163_uitx.
                     "TexturePartsIndex": 0xA3,
-                    "uijobabilityhelp+Id": 31,
+                    "uijobabilityhelp+Id": 0xA3,
                     "HideJobTree": 0,
                 },
             )
@@ -92,6 +100,9 @@ def main():
             # runtime JobCommandData table.
             clone_row(connection, f"JobCommand-{language}", 40, 0xA2)
             clone_row(connection, f"JobCommand-{language}", 41, 0xA3)
+            clone_row(connection, f"UiJobAbilityHelp-{language}", 31, 0xA3,
+                      {"Comment": "GenericKnights: Rune Knight sword requirement",
+                       "Text": RUNE_OVERVIEW[language]})
 
         # Generic-job positions 22 and 23 back A2 and A3.  Generic job IDs in
         # the requirement arrays are zero-based: Knight=2, White Mage=5,

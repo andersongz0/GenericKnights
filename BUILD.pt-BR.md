@@ -18,4 +18,6 @@ Visualizações DDS usam `dds-preview` e suas dependências externas.
 
 Autores originais constam no README e em SPRITE_CREDITS.json.
 Os créditos não concedem uma licença geral sobre a arte de terceiros.
-A release rc.1 modifica metadados/documentação; hashes de gameplay são comparados ao art-v6.
+`FFTModLoader.jobs.json` ativa a rota nativa de espada do JobExpansion para o comando 163.
+O resumo do Rune Knight usa uma linha própria, 163; a linha original 31 do Cloud é preservada.
+A atualização rc.4 exige FFTModLoader rc.9. Arte, requisitos de liberação e dados das habilidades permanecem intactos.

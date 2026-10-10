@@ -30,7 +30,7 @@ new_shapes = db.execute(
 
 expected_jobs = [
     (162, "Holy Knight", 38, 162, 162, 24),
-    (163, "Rune Knight", 44, 163, 163, 31),
+    (163, "Rune Knight", 44, 163, 163, 163),
 ]
 expected_requirements = [
     (22, "[2,5]", "[8,8]", "[1,2]"),
@@ -38,6 +38,12 @@ expected_requirements = [
 ]
 
 assert jobs == expected_jobs, jobs
+base = sqlite3.connect(root / "analysis/base-tables.sqlite")
+for locale in ("en", "de", "fr", "ja"):
+    table = f'"UiJobAbilityHelp-{locale}"'
+    assert db.execute(f'SELECT * FROM {table} WHERE Key=31').fetchone() == base.execute(f'SELECT * FROM {table} WHERE Key=31').fetchone()
+    assert db.execute(f'SELECT Text FROM {table} WHERE Key=163').fetchone()[0]
+base.close()
 assert requirements == expected_requirements, requirements
 assert shapes == (4, 170, 173), shapes
 # The gender-specific shape records must retain every runtime lookup field of
